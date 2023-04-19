@@ -1,27 +1,20 @@
+// Text 55% image 45%
 import React from 'react'
 import CardMedium from '../Cards/CardMedium'
 import CardTextSolo from '../Cards/CardTextSolo'
-import pedroPic from '../../assets/images/F_Peter.png'
+// import pedroPic from '../../assets/images/F_Peter.png'
 import charliePic from '../../assets/images/F_Charlie.png'
-import LandingSite from '../LandingSite/LandingSite'
 
-function Variants() {
+function LandingSite() {
   return (
     <div className="container">
       <br />
       <br />
       <br />
-      <header>Variants</header>
+
       <div className="row ">
         <div className="col">
-          <CardMedium
-            imagen={pedroPic}
-            name={'Pedro'}
-            roleJob={'The Admin'}
-            notes={'He is a very good fellow'}
-          />
-        </div>
-        <div className="col">
+          <header>Machu Picchu</header>
           <CardTextSolo
             paragraph={
               'Meet the aliens. They come in 7 unique colors and 5 expressions that show up when they get discovered. Some aliens like to mark themselves with unique patterns that remind them of Earthly things. The UFOs they fly are painted to resemble ships from their favorite movies and TV shows. Their appearance changes depending on the time of day and their dimension.'
@@ -41,13 +34,7 @@ function Variants() {
           </div>
         </div>
       </div>
-      <header>Langing Sites</header>
-      <LandingSite />
-      <LandingSite />
-      <LandingSite />
-      <LandingSite />
-      <LandingSite />
     </div>
   )
 }
-export default Variants
+export default LandingSite

@@ -8,14 +8,14 @@ const CardTransparent = props => {
     <div className="cardTransparent">
       <div className="">
         <h2>{props.title}</h2>
-        <div className="">
-          <textarea className="cardTransparent" rows="4">
+        <div className="PedroText">
+          <p readOnly className="cardTransparent" rows="4">
             {props.paragraph1}
-          </textarea>
-          <br></br>
-          <textarea className="cardTransparent" rows="4">
+          </p>
+          {/* <br></br> */}
+          <p readOnly className="cardTransparent" rows="4">
             {props.paragraph2}
-          </textarea>
+          </p>
         </div>
       </div>
     </div>

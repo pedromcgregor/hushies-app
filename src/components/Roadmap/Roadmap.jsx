@@ -10,6 +10,9 @@ const para2 = `We have been spotted hovering around some of the world's most rec
 function Roadmap() {
   return (
     <div className="container">
+      <br />
+      <br />
+      <br />
       <CardTransparent
         title={'Roadmap'}
         paragraph1={para1}

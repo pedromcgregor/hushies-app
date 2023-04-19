@@ -3,6 +3,9 @@ import './SinglePageApp.css'
 import Home from '../Home/Home'
 import About from '../About/About'
 import Roadmap from '../Roadmap/Roadmap'
+import Purchase from '../Purchase/Purchase'
+import Team from '../Team/Team'
+import Variants from '../Variants/Variants'
 
 const SinglePage = () => {
   return (
@@ -20,7 +23,11 @@ const SinglePage = () => {
               <h3>About</h3>
             </a>
           </li>
-
+          <li>
+            <a href="#variants">
+              <h3>Variants</h3>
+            </a>
+          </li>
           <li>
             <a href="#roadmap">
               <h3>Roadmap</h3>
@@ -50,46 +57,13 @@ const SinglePage = () => {
         <Roadmap />
       </section>
       <section id="purchase">
-        <h1>Purchase</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
-        </p>
+        <Purchase />
       </section>
       <section id="team">
-        <h1>Team</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
-        </p>
+        <Team />
       </section>
       <section id="variants">
-        <h1>Variants</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
-        </p>
+        <Variants />
       </section>
     </div>
   )

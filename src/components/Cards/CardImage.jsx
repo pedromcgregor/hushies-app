@@ -1,8 +1,10 @@
 import React from 'react'
+//import PropTypes from 'prop-types'
 import './flipCard.css'
 
 const CardImage = props => {
   // const {image} = props
+  // const {width, height} = props
   console.log(props)
   return (
     <div className="rounded-3 shadow-mb">
@@ -13,7 +15,9 @@ const CardImage = props => {
               className="imagen-esquina"
               src={props.imagen}
               alt="Avatar"
-              style={{ width: '450px', height: '450px' }}
+              // style={{ width: props.width, height: props.height }}
+              width={props.width || '450px'}
+              height={props.height || '450px'}
             />
           </div>
         </div>

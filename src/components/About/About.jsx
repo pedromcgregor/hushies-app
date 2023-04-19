@@ -24,8 +24,6 @@ function About() {
           <CardImage imagen={imageGIF} />
         </div>
       </div>
-      {/* {para1}
-      {para2} */}
     </div>
   )
 }
