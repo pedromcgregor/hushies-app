@@ -4,6 +4,11 @@ import CardTextSolo from '../Cards/CardTextSolo'
 import pedroPic from '../../assets/images/F_Peter.png'
 import charliePic from '../../assets/images/F_Charlie.png'
 import LandingSite from '../LandingSite/LandingSite'
+import MachuPicchu from '../../assets/images/Landing Machu Picchu.webp'
+import Nazca from '../../assets/images/Landing Nazca Lines Monkey.webp'
+import Pyramids from '../../assets/images/Landing Pyramids of Giza.webp'
+import Stone from '../../assets/images/Landing Stonehenge.webp'
+import Teotihuacan from '../../assets/images/Landing Teotihuacan.webp'
 
 function Variants() {
   return (
@@ -42,11 +47,11 @@ function Variants() {
         </div>
       </div>
       <header>Langing Sites</header>
-      <LandingSite />
-      <LandingSite />
-      <LandingSite />
-      <LandingSite />
-      <LandingSite />
+      <LandingSite imagen={MachuPicchu} title={'Machu Picchu'} />
+      <LandingSite imagen={Nazca} title={'Nazca Lines'} />
+      <LandingSite imagen={Pyramids} title={'Pyramids of Gizau'} />
+      <LandingSite imagen={Stone} title={'Stonehenge'} />
+      <LandingSite imagen={Teotihuacan} title={'Teotihuacan'} />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import './flipCard.css'
 const CardImage = props => {
   // const {image} = props
   // const {width, height} = props
-  console.log(props)
+  // console.log(props)
   return (
     <div className="rounded-3 shadow-mb">
       <div className="flip-card">

@@ -3,9 +3,9 @@ import React from 'react'
 import CardMedium from '../Cards/CardMedium'
 import CardTextSolo from '../Cards/CardTextSolo'
 // import pedroPic from '../../assets/images/F_Peter.png'
-import charliePic from '../../assets/images/F_Charlie.png'
+// import charliePic from '../../assets/images/F_Charlie.png'
 
-function LandingSite() {
+function LandingSite(props) {
   return (
     <div className="container">
       <br />
@@ -14,7 +14,7 @@ function LandingSite() {
 
       <div className="row ">
         <div className="col">
-          <header>Machu Picchu</header>
+          <header>{props.title}</header>
           <CardTextSolo
             paragraph={
               'Meet the aliens. They come in 7 unique colors and 5 expressions that show up when they get discovered. Some aliens like to mark themselves with unique patterns that remind them of Earthly things. The UFOs they fly are painted to resemble ships from their favorite movies and TV shows. Their appearance changes depending on the time of day and their dimension.'
@@ -24,7 +24,7 @@ function LandingSite() {
         <div className="col">
           <div className="card-body">
             <CardMedium
-              imagen={charliePic}
+              imagen={props.imagen}
               name={'Charlie'}
               roleJob={'el Guapo'}
               notes={

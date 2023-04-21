@@ -3,7 +3,7 @@ import './flipCard.css'
 
 const CardText = props => {
   // const {title, paragraph1, paragraph2} = props
-  console.log(props)
+  // console.log(props)
   return (
     <div className="rounded-3 shadow-mb textarea-text">
       <div className="textarea">
